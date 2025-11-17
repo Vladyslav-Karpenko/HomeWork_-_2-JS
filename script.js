@@ -76,6 +76,15 @@
 //     - замените "awesome" на "cool"
 //     - сделайте всю строку в верхнем регистре
 // !RESULT
+// const str = "JavaScript is awesome";
+// document.body.innerHTML = `
+// <h2 style="color:brown;">
+// Original string: ${str}<br>
+// String length: ${str.length}<br>
+// Only frist word (slice): ${str.slice(false, 10)}<br>
+// String with new word (replace): ${str.replace("awesome", "cool")}
+// </h2>
+// `;
 
 // !! Task # 7 (Создание логина)
 // Пользователь вводит:

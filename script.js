@@ -31,12 +31,25 @@
 //   - обычное
 //   - до двух знаков после запятой
 // !RESULT
+// myNumber = 3.67892;
+// document.body.innerHTML = `
+// <h1 style="color:blue;">
+// Original value = ${myNumber}<br>
+// Rounded up (ceil) = ${Math.ceil(myNumber)}<br>
+// Rounded down (floor) = ${Math.floor(myNumber)}<br>
+// Rounded simple (round) = ${Math.round(myNumber)}<br>
+// Rounded to two decimal places (toFixed) = ${myNumber.toFixed(2)}
+// </h1>
+// `;
 
 // !! Task # 4 (Генератор случайного числа)
 // Выведите случайное число от 1 до 100.
 // Подсказка:
 // Math.floor(Math.random() * 100) + 1
 // !RESULT
+// document.body.innerHTML = `
+// <h1 style="color:green;">the value is ${Math.floor(Math.random() * 100) + 1}
+// `;
 
 // !! Task # 5 (Проверка на число)
 // Пользователь вводит что-то через prompt.

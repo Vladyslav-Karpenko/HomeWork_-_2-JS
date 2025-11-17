@@ -14,6 +14,14 @@
 // и наоборот: С = (5 * (F - 32)) / 9
 // Выведите результат на страницу.
 // !RESULT
+// celsius = +prompt("Enter the temperature in degrees Celsius");
+// fahrenheit = +prompt("Enter the temperature in degrees Fahrenheit");
+// const celsiusToFahrenheit = celsius * 1.8 + 32;
+// const fahrenheitToCelsius = (5 * (fahrenheit - 32)) / 9;
+// document.body.innerHTML = `<h1 style="color:brown;">Temperature ${celsius}C in Fahrenheit = ${celsiusToFahrenheit}</h>`;
+// document.body.innerHTML += `<h1 style="color:brown;">Temperature ${fahrenheit}F in Celsius= ${fahrenheitToCelsius.toFixed(
+//   2
+// )}</h>`;
 
 // !! Task # 3 (Округления)
 // Пусть есть число 3.67892

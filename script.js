@@ -58,6 +58,14 @@
 //   - является ли результат NaN
 //   - Выведите соответствующее сообщение.
 // !RESULT
+// userValue = prompt("Enter some value");
+// document.body.innerHTML = `
+// <h2 style="color:purple;">
+// Your value is "${userValue}"<br>
+// Convert to num = ${!isNaN(userValue)}<br>
+// Value is NaN = ${isNaN(userValue)}<br>
+// </h2>
+// `;
 
 // !! Task # 6 (Работа со строками)
 // Пусть у вас есть строка:

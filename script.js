@@ -97,6 +97,13 @@
 //  - toLowerCase
 //  - шаблонные строки
 // !RESULT
+userName = prompt("What is your name?").toLowerCase().trim();
+userSurname = prompt("What is your surname?").toLowerCase().trim();
+document.body.innerHTML = `
+<h1 style="color:green;">The user login: ${
+  userName + "." + userSurname
+}@gmail.com
+`;
 
 // !! Task # 8 (Расчёт цены с НДС по заданной цене и количеству)
 // Напишите программу, которая:

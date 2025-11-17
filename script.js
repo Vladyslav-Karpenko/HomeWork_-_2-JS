@@ -97,13 +97,13 @@
 //  - toLowerCase
 //  - шаблонные строки
 // !RESULT
-userName = prompt("What is your name?").toLowerCase().trim();
-userSurname = prompt("What is your surname?").toLowerCase().trim();
-document.body.innerHTML = `
-<h1 style="color:green;">The user login: ${
-  userName + "." + userSurname
-}@gmail.com
-`;
+// userName = prompt("What is your name?").toLowerCase().trim();
+// userSurname = prompt("What is your surname?").toLowerCase().trim();
+// document.body.innerHTML = `
+// <h1 style="color:green;">The user login: ${
+//   userName + "." + userSurname
+// }@gmail.com
+// `;
 
 // !! Task # 8 (Расчёт цены с НДС по заданной цене и количеству)
 // Напишите программу, которая:
@@ -115,3 +115,15 @@ document.body.innerHTML = `
 //             - общую цену с НДС
 //     - Выведет результат с помощью alert().
 // !RESULT
+// pricePerPiece = +prompt("How much does one piece cost?");
+// quantity = +prompt("What quantity?");
+// priceTotal = pricePerPiece * quantity;
+// vat = priceTotal * 0.21;
+// document.body.innerHTML = `
+// <h1 style="color:orange;">
+// Price: ${priceTotal}<br>
+// VAT (21%): ${vat}<br>
+// TOTAL PRICE: ${priceTotal + vat}
+// </h1>
+// `;
+// alert(`Total price with VAT is = ${priceTotal + vat}`);
